@@ -1,0 +1,214 @@
+/*
+ Theme Name:     Stronghold Theme
+ Theme URI:      http://www.strongholdhealth.com
+ Description:    Stronghold Health Theme
+ Author:         ERIC MESSICK
+ Author URI:     https://www.linkedin.com/in/ericdmessick
+ Template:       Divi
+ Version:        1.0.0
+*/
+ 
+@import url("../Divi/style.css");
+@import url("screen.css"); 
+@import url("magnific-popus.css")
+/* =Theme customization starts here
+------------------------------------------------------- */
+
+.category-our-miracles {
+
+padding: 0 30px 30px 30px;
+
+}
+
+a, h1, h2, h3, h4, .title {
+
+color: red;
+
+}
+
+/*
+--------------------------INTERACTIVE SPINE STYLES------------------
+---------------------------ADDED BY ERIC MESSICK--------------------
+--------------------------------06-27-2016--------------------------
+*/
+
+#interactiveContainer {
+	width: 100;
+	margin: 0 auto 215px;
+	position: relative;
+}
+
+/*Interactive Spine Container, Background Classes, and Vertabrae*/
+
+#interSpineTopCopy {
+	width: 100%;
+}
+
+#interSpineTopCopy ol {
+	color: #e82c2e;
+	width: 90%;
+	padding-left: 20px;
+}
+
+#interSpineTopCopy ol p {
+	color: #e82c2e;
+}
+
+#interactiveSpine {
+	float: left;
+/*	z-index: 100;*/
+	position: relative;
+}
+
+.silhouette {
+	background:url("img/Spinal_outline.png") no-repeat top center;
+	background-size: cover;
+	width: 320px;
+	height: 911px;
+	padding: 0;
+	margin: 70px 0 0 0;
+}
+
+
+
+#C1,#C2,#C3,#C4,#C5,#C6,#C7,#T1,#T2,#T3,#T4,#T5,#T6,#T7,#T8,#T9,#T10,#T11,#T12,#L1,#L2,#L3,#L4,#L5,#S1, #S2 {
+	position: absolute;
+	left: 50%;
+	margin-left: -6px;
+}
+
+#C1 {top: 7.6%;}
+#C2 {top: 9.4%;}
+#C3 {top: 11.2%;}
+#C4 {top: 13.0%;}
+#C5 {top: 14.8%;}
+#C6 {top: 16.6%;}
+#C7 {top: 18.4%;}
+
+#T1 {top: 20.2%;}
+#T2 {top: 22.0%;}
+#T3 {top: 23.8%;}
+#T4 {top: 25.6%;}
+#T5 {top: 27.4%;}
+#T6 {top: 29.2%;}
+
+#T7 {top: 31.0%;}
+#T8 {top: 32.8%;}
+#T9 {top: 34.6%;}
+#T10 {top: 36.4%;}
+#T11 {top: 38.2%;}
+#T12 {top: 40.0%;}
+
+#L1 {top: 41.8%;}
+#L2 {top: 43.6%;}
+#L3 {top: 45.4%;}
+#L4 {top: 47.2%;}
+#L5 {top: 49.0%;}
+
+#S1 {top: 50.8%;}
+#S2 {top: 52.6%;}
+
+.vert {
+	border-radius: 50%;
+	width: 12px;
+	height: 12px;
+	background-color: white;
+	transition: transform 0.2s;
+}
+
+.hover {
+	background-color: #993333;
+	;
+	/*	transform: scale(1.3);*/
+}
+
+/*Vertabrae Drop Down Information*/
+
+#spineInformation {
+	width: 415px;
+	padding: 0;
+	margin: 20px 0 0 0;
+	position: absolute;
+	right: 0;
+/*	z-index: 200;*/
+}
+
+#spineInformation > ul {
+	list-style: none;
+}
+
+#spineInfoC1, #spineInfoC2, #spineInfoC3, #spineInfoC4, #spineInfoC5, #spineInfoC6, #spineInfoC7, 
+#spineInfoT1, #spineInfoT2, #spineInfoT3, #spineInfoT4, #spineInfoT5, #spineInfoT6,
+#spineInfoT7, #spineInfoT8, #spineInfoT9, #spineInfoT10, #spineInfoT11, #spineInfoT12,
+#spineInfoL1, #spineInfoL2, #spineInfoL3, #spineInfoL4, #spineInfoL5, #spineInfoS1, #spineInfoS2 {
+	display: none;
+}
+
+.topSpineInfo {
+	background-color: #993333;
+}
+
+.organSpineInfo {
+	background-color: #333333;
+}
+
+.midSpineInfo {
+	background-color: #504A4B;
+}
+
+.bottomSpineInfo {
+	background-color: #848482;
+}
+
+.topSpineInfo h1 {
+	font-weight: bold;
+}
+
+.topSpineInfo, .organSpineInfo, .midSpineInfo, .bottomSpineInfo {
+	padding: 15px;
+	margin: 10px 0 10px 0;
+}
+
+#spineInformation .topSpineInfo ul, #spineInformation .organSpineInfo ul, #spineInformation .midSpineInfo ul, #spineInformation .bottomSpineInfo ul {
+	padding: 0;
+	margin: 0 auto;
+	width: 300px;
+	list-style: none;
+}
+
+.topSpineInfo li, .organSpineInfo li, .midSpineInfo li, .bottomSpineInfo li {
+	margin: 0;
+	text-align: center;
+	color: white;
+}
+
+.topSpineInfo li:before, .organSpineInfo li:before, .midSpineInfo li:before, .bottomSpineInfo li:before {
+	color: white; 
+	content:"\2022"; 
+	font-size:1.2em; 
+	padding-right:.25em; 
+	position:relative;
+	top:.1em;
+}
+
+.topSpineInfo h1, .topSpineInfo h3, .topSpineInfo p, .organSpineInfo h1, .organSpineInfo h3, .organSpineInfo p, .midSpineInfo h1, .midSpineInfo h3, .midSpineInfo p, .bottomSpineInfo h1, .bottomSpineInfo h3, .bottomSpineInfo p {
+	text-align: center;
+	color: white;
+	margin: 0 10px 10px 10px;
+}
+#interSpineTopCopy h1 {
+	color: #e82c2e;
+}
+@media only screen 
+and (min-device-width : 314px) 
+and (max-device-width : 736px) {
+	#interSpineTopCopy {
+		display:none;
+	}
+	#interactiveContainer {
+		display:none;
+	}
+}
+#left-area.posRel {
+	position:relative;
+}

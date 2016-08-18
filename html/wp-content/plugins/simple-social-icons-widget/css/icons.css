@@ -1,0 +1,176 @@
+.clr{
+	clear: both;
+}
+/*********************************
+     Social Icons Custom  
+**********************************/
+.social-icons-custom{
+	margin: 0 auto;
+	padding: 0;
+}
+.social-icons-custom li{
+	float: left;
+	list-style: none;
+}
+
+.social-icons-custom li .cfc-facebook{
+	background-position: 11px 10px;
+}.social-icons-custom li .cfc-facebook:hover{
+	background: #3b5998 url(icons.png)no-repeat 11px 10px;
+}
+
+.social-icons-custom  li .cfc-twitter{
+	background-position: -36px 9px;
+}.social-icons-custom li .cfc-twitter:hover{
+	background: #29c5f6 url(icons.png)no-repeat -36px 9px;
+}
+
+.social-icons-custom li .cfc-youtube{
+	background-position:-83px 8px;
+}.social-icons-custom li .cfc-youtub:hover{
+	background: #dd332c url(icons.png)no-repeat -83px 8px;
+}
+
+.social-icons-custom li .cfc-linkedin{
+	background-position: -192px 9px;
+}.social-icons-custom li .cfc-linkedin:hover{
+	background: #dd332c url(icons.png)no-repeat -192px 9px;
+}
+
+
+.social-icons-custom li .cfc-pinterest{
+	background-position: -134px -90px;
+}.social-icons-custom li .cfc-pinterest:hover{
+	background: #c61118 url(icons.png)no-repeat -134px -90px;
+}
+
+.social-icons-custom li .cfc-flickr{
+	background-position: -296px -39px;
+}.social-icons-custom li .cfc-flickr:hover{
+	background: #f92370 url(icons.png)no-repeat -296px -39px;
+}
+
+.social-icons-custom li .cfc-rss{
+	background-position:-82px -37px;
+}.social-icons-custom li .cfc-rss:hover{
+	background: #fd8b05 url(icons.png)no-repeat -82px -37px;
+}
+
+.social-icons-custom li .cfc-skype{
+	background-position: 13px -38px;
+}.social-icons-custom li .cfc-skype:hover{
+	background: #24b4ef url(icons.png)no-repeat 13px -38px;
+}
+
+/*.social-icons-custom li .cfc-gplus{
+	background-position: -370px -42px;
+}.social-icons-custom li .cfc-gplus:hover{
+	background: #dd332c url(icons.png)no-repeat -83px 8px;
+}*/
+
+.social-icons-custom li .cfc-vimeo{
+	background-position:-244px 11px;
+}.social-icons-custom li .cfc-vimeo:hover{
+	background: #4da9cd url(icons.png)no-repeat -244px 11px;
+}
+
+.social-icons-custom li .cfc-digg{
+	background-position: -137px 10px;
+}.social-icons-custom li .cfc-digg:hover{
+	background: #3284c2 url(icons.png)no-repeat -137px 8px;
+}
+
+.social-icons-custom li .cfc-blog{
+	background-position: -296px -88px;
+}.social-icons-custom li .cfc-blog:hover{
+	background: #f97d17 url(icons.png)no-repeat -296px -88px;
+}
+
+/*.social-icons-custom li .cfc-instagram{
+	background-position: -137px -131px;
+}.social-icons-custom li .cfc-instagram:hover{
+	background: #f97d17 url(icons.png)no-repeat -296px -88px;
+}*/
+
+.social-icons-custom li .cfc-tumblr{
+	background-position: -191px -89px;
+}.social-icons-custom li .cfc-tumblr:hover{
+	background: #395875 url(icons.png)no-repeat -191px -89px;
+}
+
+.social-icons-custom li .cfc-mail{
+	background-position: -242px -88px;
+}.social-icons-custom li .cfc-mail:hover{
+	background: #2a9ee7 url(icons.png)no-repeat -242px -88px;
+}
+
+.social-icons-custom li .cfc-wordpress{
+	background-position: -85px -89px;
+}.social-icons-custom li .cfc-wordpress:hover{
+	background: #2e2e2e url(icons.png)no-repeat -85px -89px;
+}
+
+.social-icons-custom li .cfc-dribbble{
+	background-position: -341px -38px;
+}.social-icons-custom li .cfc-dribbble:hover{
+	background: #f97d17 url(icons.png)no-repeat -341px -38px;
+}
+
+.social-icons-custom li .cfc-yahoo{
+	background-position: -37px -90px;
+}.social-icons-custom li .cfc-yahoo:hover{
+	background: #f97d17 url(icons.png)no-repeat -37px -90px;
+}
+.social-icons-custom li .cfc-dropbox{
+	background-position: 3px -219px;
+}.social-icons-custom li .cfc-dropbox:hover{
+	background-position: 3px -175px;
+}
+
+.social-icons-custom li .cfc-reddit{
+	background-position: -340px 10px;
+}.social-icons-custom li .cfc-reddit:hover{
+	background: #83c0f6 url(icons.png)no-repeat -340px 10px;
+}
+
+.social-icons-custom li .cfc-myspace{
+	background-position: 10px -89px;
+}.social-icons-custom li .cfc-myspace:hover{
+	background: #1852cc url(icons.png)no-repeat  10px -89px;
+}
+
+.social-icons-custom li .cfc-soundcloud{
+	background-position: -296px 11px;
+}.social-icons-custom li .cfc-soundcloud:hover{
+	background: #ff7300 url(icons.png)no-repeat  -296px 11px;
+}
+
+.social-icons-custom li .cfc-amazon{
+	background-position: -135px -37px;
+}.social-icons-custom li .cfc-amazon:hover{
+	background: #171716 url(icons.png)no-repeat  -135px -37px;
+}
+
+.social-icons-custom li .cfc-bing{
+	background-position: -344px -87px;
+}.social-icons-custom li .cfc-bing:hover{
+	background: #2C80CE url(icons.png)no-repeat  -344px -87px;
+}
+
+.social-icons-custom li .cfc-delicious{
+	background-position: -244px -39px;
+}.social-icons-custom li .cfc-delicious:hover{
+	background: #363636 url(icons.png)no-repeat  -244px -39px;
+}
+
+.social-icons-custom li .cfc-stumbleupon{
+	background-position: -313px -219px;
+}.social-icons-custom li .cfc-stumbleupon:hover{
+	background-position: -313px -175px;
+}
+
+.social-icons-custom li .cfc-share{
+	background-position: -32px -37px;
+}.social-icons-custom li .cfc-share:hover{
+	background: #40b81a url(icons.png)no-repeat  -32px -37px;
+}

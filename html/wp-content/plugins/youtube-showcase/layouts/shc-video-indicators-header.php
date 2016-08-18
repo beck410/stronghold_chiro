@@ -1,0 +1,1 @@
+<?php global $video_indicators_shc_count; ?><div class="row <?php echo ((emd_glob_val('yt-scase-com', 'glb_show_thumbs_xs')) ? "" : "hidden-xs"); ?>">
